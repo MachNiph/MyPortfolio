@@ -8,7 +8,7 @@ import { FaGitAlt } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col gap-6 ">
       <div>
         <button className="flex items-center gap-2 rounded-lg border-2 border-black p-1">
           <FaChessKing />
@@ -16,10 +16,12 @@ const Skills = () => {
         </button>
       </div>
 
-      <div className="flex py-6 gap-4 text-4xl text-red-400">
+      <div className="flex py-6 gap-4 text-6xl">
         <FaReact />
         <SiTailwindcss />
-        <AiOutlineAntDesign />
+        <div className="text-red-400">
+          <AiOutlineAntDesign />
+        </div>
         <FaSass />
         <FaGitAlt />
       </div>

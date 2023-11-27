@@ -22,19 +22,17 @@ const Education = () => {
 
         <div className=" flex flex-col gap-5">
           <div>
-            <p className="text-red-400">2016-2018</p>
-            <h2 className="font-bold">Academic Degree</h2>
-            <p className="text-red-400">+2 Science</p>
-            <p className="text-red-400">Kanchanjungs H.S.E.S</p>
+            <p>2016-2018</p>
+            <h2 className="font-bold text-red-400">Academic Degree</h2>
+            <p>+2 Science</p>
+            <p>Kanchanjungs H.S.E.S</p>
           </div>
 
           <div>
-            <p className="text-red-400">2018-2023</p>
-            <h2 className="font-bold">Bachelor's Degree</h2>
-            <p className="text-red-400">
-              Bachelor in Science Computer Science and IT(Bsc Csit)
-            </p>
-            <p className="text-red-400">Tribhuvan University</p>
+            <p>2018-2023</p>
+            <h2 className="font-bold text-red-400">Bachelor's Degree</h2>
+            <p>Bachelor in Science Computer Science and IT(Bsc Csit)</p>
+            <p>Tribhuvan University</p>
           </div>
         </div>
       </div>

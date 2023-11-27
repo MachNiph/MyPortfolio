@@ -5,9 +5,12 @@ import { FaRegEnvelope } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="flex flex-col items-center border-2  gap-4 p-1 ">
+    <div className="flex flex-col items-center border-2  gap-4 p-2 ">
       <div className="flex justify-center ">
-        <p>Frontend Developer</p>
+        <p className="font-bold text-xl">
+          {" "}
+          Frontend <span className="text-red-400">Developer</span>
+        </p>
       </div>
 
       <div className="flex  justify-center">
@@ -33,9 +36,9 @@ const Header = () => {
         </a>
       </div>
 
-      <button className="flex justify-center items-center gap-2 rounded-sm bg-slate-500 p-2 ">
+      <button className="flex justify-center items-center gap-2 rounded-sm bg-red-400 p-2 text-white ">
         <FaRegEnvelope />
-        <h2>Hire Me</h2>
+        <h2 className="text-white">Hire Me</h2>
       </button>
     </div>
   );
