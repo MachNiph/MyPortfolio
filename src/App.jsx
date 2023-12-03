@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
 import Projects from "./pages/Projects";
-import DarkModeToggle from "./components/darkmode";
+
 
 const App = () => {
   return (
