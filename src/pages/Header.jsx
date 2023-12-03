@@ -2,7 +2,7 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
-import DarkModeToggle from "../components/darkmode";
+import DarkModeToggle from "../components/Darkmode";
 
 const Header = () => {
   return (
