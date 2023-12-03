@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="flex flex-col gap-8">
       <div>
-        <button className="flex items-center gap-2 rounded-lg border-2 border-black p-1">
+        <button className="flex items-center gap-2 rounded-lg border-2 border-black dark:border-white p-1">
           <FaHome />
           <p>Home</p>
         </button>

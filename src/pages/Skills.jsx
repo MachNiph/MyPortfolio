@@ -10,7 +10,7 @@ const Skills = () => {
   return (
     <div className="flex flex-col gap-6 ">
       <div>
-        <button className="flex items-center gap-2 rounded-lg border-2 border-black p-1">
+        <button className="flex items-center gap-2 rounded-lg border-2 border-black dark:border-white p-1">
           <FaChessKing />
           <p> Skills</p>
         </button>

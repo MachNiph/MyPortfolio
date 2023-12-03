@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div className="flex flex-col gap-8">
       <div>
-        <button className="flex items-center gap-2 rounded-lg border-2 border-black p-1">
+        <button className="flex items-center gap-2 rounded-lg border-2 border-black dark:border-white p-1">
           <GiGraduateCap />
           <p>Education</p>
         </button>
@@ -13,11 +13,11 @@ const Education = () => {
 
       <div className="flex gap-10 ">
         <div className="flex flex-col ">
-          <div className="w-3 bg-slate-800 h-3 rounded-full"></div>
-          <div className="w-1 bg-slate-800 h-28 mx-1"></div>
-          <div className="w-3 bg-slate-800 h-3 rounded-full"></div>
-          <div className="w-1 bg-slate-800 h-28 mx-1"></div>
-          <div className="w-3 bg-slate-800 h-3 rounded-full"></div>
+          <div className="w-3 bg-slate-800 dark:bg-gray-100 h-3 rounded-full"></div>
+          <div className="w-1 bg-slate-800   dark:bg-gray-100 h-28 mx-1"></div>
+          <div className="w-3 bg-slate-800   dark:bg-gray-100 h-3 rounded-full"></div>
+          <div className="w-1 bg-slate-800  dark:bg-gray-100 h-28 mx-1"></div>
+          <div className="w-3 bg-slate-800  dark:bg-gray-100 h-3 rounded-full"></div>
         </div>
 
         <div className=" flex flex-col gap-5">
